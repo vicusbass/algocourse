@@ -13,7 +13,7 @@ public class QuickSort {
     }
 
     public static int partition(int[] arr, int leftStart, int rightEnd, int pivot) {
-        int left = leftStart, right = rightEnd;
+        int left =  leftStart, right = rightEnd;
         while (left < right) {
             while (arr[left] < pivot) left++;
             while (arr[right] > pivot) right--;
