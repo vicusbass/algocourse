@@ -1,7 +1,8 @@
-package org.school.sort;
+package org.school.bk;
 
-public class Permutations {
-    private static int n = 3;
+public class Combinations {
+    private static int n = 4;
+    private static int k = 2;
     private static int[] stiva = new int[50];
 
     public static void main(String[] args) {
@@ -9,7 +10,7 @@ public class Permutations {
     }
 
     private static void write() {
-        for (int i = 1; i < n+1; i++) {
+        for (int i = 1; i < n + 1; i++) {
             System.out.print(stiva[i] + " ");
         }
         System.out.println();

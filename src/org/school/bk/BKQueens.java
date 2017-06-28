@@ -1,4 +1,4 @@
-package org.school;
+package org.school.bk;
 
 
 public class BKQueens {
